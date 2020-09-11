@@ -1,0 +1,18 @@
+@import "../../styles/variables.scss";
+
+.orderButton {
+  background-color: $accentColor;
+  padding: .8rem 1.6rem;
+  border-radius: $elementBorderRadius;
+  color: #fff;
+  font-size: .9rem;
+
+  &Thin {
+    background-color: transparent;
+    padding: 1rem 2rem;
+    border-radius: .4rem;
+    font-size: 1.2rem;
+    border: 1px solid #fff;
+    color: #fff;
+  }
+}

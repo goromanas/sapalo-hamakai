@@ -5,6 +5,7 @@ module.exports = {
     author: `@tomphill`,
   },
   plugins: [
+    `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -31,7 +32,7 @@ module.exports = {
       resolve: "gatsby-source-wordpress",
       options: {
         minimizeDeprecationNotice: true,
-        baseUrl: "sapalo-hamakai.local",
+        baseUrl: "sapalohamakai.local",
         protocol: "http",
         hostingWPCOM: false,
         useACF: false,
@@ -46,6 +47,9 @@ module.exports = {
           "**/tags",
           "**/taxonomies",
           "**/users",
+          "/*/*/logo",
+          "/*/*/favicon",
+          "/*/*/menus"
         ],
       },
     },

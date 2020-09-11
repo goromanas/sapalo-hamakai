@@ -1,0 +1,28 @@
+@import "../../styles/variables.scss";
+
+.section {
+  &Hero {
+    background-color: $backgroundColor1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
+  &About {
+    background-color: $backgroundColor2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+  }
+
+  &White {
+    background-color: $backgroundColor3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+}
